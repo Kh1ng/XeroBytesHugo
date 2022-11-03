@@ -1,0 +1,32 @@
+baseURL = 'bytes.xerolinux.xyz'
+languageCode = 'en-us'
+title = 'XeroLinux Podcast Feed'
+theme = 'risotto'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+paginate = 5
+
+sectionPagesMenu = "menu"
+
+[params]
+noindex = true
+contentTypeName = "post"
+mainSections = ["post"]
+
+[params.about]
+title = "Episodes"
+description = "A podcast about [XeroLinux](XeroLinux.xyz)."
+logo = "images/Xero100.png"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/xerolinux/xero_iso"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Feed"
+    url = "/post/"
+    weight = 10
